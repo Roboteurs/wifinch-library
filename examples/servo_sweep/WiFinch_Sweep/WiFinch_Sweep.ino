@@ -6,7 +6,7 @@
  * 
  */****************************************************************************
 
-#include "Wire.h"
+
 #include "WiFinch.h"
 
 WiFinch servo = WiFinch();

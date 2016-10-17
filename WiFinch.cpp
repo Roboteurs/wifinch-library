@@ -39,6 +39,13 @@ void WiFinch::init(void){
 }
 
 /*
+ * @Breif attach servonum at angle zero
+ */
+void WiFinch::attach(char servonum){
+	writeDegree(servonum, 0);
+}
+
+/*
  * @Breif writes an angle to the servo
  */
 void WiFinch::writeDegree(char servonum, int angle){
